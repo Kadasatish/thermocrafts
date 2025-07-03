@@ -1,0 +1,33 @@
+<!-- /index.html -->
+<!DOCTYPE html>
+<html lang="te">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ThermoCrafts</title>
+  <link rel="stylesheet" href="/css/styles.css" />
+</head>
+<body>
+
+  <h1>ThermoCrafts</h1>
+
+  <div class="product-grid">
+    <div class="product">
+      <img src="/public/images/craft1.jpg" alt="Craft 1" width="200" />
+      <p>ధర: ₹100</p>
+      <img src="/public/qr/qr1.png" alt="Scan to Pay" width="150" />
+      <button onclick="showPaymentSuccess('status1')">Buy</button>
+      <div class="status-dot" id="status1"></div>
+    </div>
+  </div>
+
+  <footer>
+    <a href="/pages/terms.html">Terms & Conditions</a> |
+    <a href="/pages/refund.html">Refund Policy</a> |
+    <a href="/pages/contact.html">Contact</a> |
+    <a href="/pages/about.html">About</a>
+  </footer>
+
+  <script src="/js/main.js"></script>
+</body>
+</html>
